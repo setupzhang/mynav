@@ -20,4 +20,8 @@ main{text-align: center; display: flex; justify-content: center; align-items: ce
 .row{margin: 20px; }
 .row .key{margin: 0 10px; }
 .key img{width: 16px; height: 16px; position: absolute; left: 4px; bottom: 2px;}
+<<<<<<< HEAD
 .key .text{position: absolute; left: 4px; top: 2px; }
+=======
+.key .text{position: absolute; left: 4px; top: 2px; }
+>>>>>>> 337b9f961914eb81dc4a1f3d532c442fb4853cab
