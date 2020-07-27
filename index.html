@@ -27,7 +27,7 @@
 		
 		// 下面是工具函数
 		function getFromLocalStorage(name){
-			return JSON.parse(localStorage.getItem(name) || 'null')
+			return JSON.parse(localStroage.getItem(name) || 'null')
 		}
 		function tag(tagName){
 			return document.createElement(tagName) 
@@ -50,7 +50,7 @@
                 var key = button2['id'] // q w e r t
 				var x = prompt('给我一个网址哦亲！') // qq.com
 				hash[key] = x  // hash 变更
-				img2.src = 'http://'+x + '/favicon.ico'
+				img2.src = 'http://+x + /favicon.ico'
 				img2.onerror = function(xxx){
 					xxx.target.src = '//i.loli.net/2017/11/10/5a05afbc5e183.png'
 				}
